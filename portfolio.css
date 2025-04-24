@@ -1,3 +1,7 @@
+:root {
+  --branding-color: #6c63ff;
+}
+
 .h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -6,4 +10,31 @@
 
 .body {
   font-family: "Playfair", serif;
+}
+
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: "Poppings", sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.btn branding {
+  border-radius: 4px;
+  color: white;
+  background: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
