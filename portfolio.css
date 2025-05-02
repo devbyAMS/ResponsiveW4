@@ -106,6 +106,31 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-width: 150px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  padding: 20px 0;
+}
+
+.nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+. nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -128,5 +153,9 @@ p {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
